@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { Modal } from 'react-native';
+import { useState } from 'react';
+import { StyleSheet, Text, View, Modal, Image, TextInput, TouchableOpacity } from 'react-native';
 
 export default function LoginScreen() {
 
@@ -21,7 +21,6 @@ const handleLogin = () => {
 };
  return (
     <View style={styles.container}>
-
       <View style={styles.header}>
         <Text style={styles.headerText}>Login App (Apellido, Apellido)</Text>
       </View>
